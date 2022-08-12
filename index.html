@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .test {
+            margin: 0 auto;
+            width: 400px;
+            background: #ccc;
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .block1 {
+            width: 200px;
+            height: 100px;
+            padding: 10px;
+            background: aqua;
+            margin-bottom: 20px;
+        }
+        .block2 {
+            width: 200px;
+            height: 100px;
+            padding: 10px;
+            background: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div onclick="alert('Обработчик для Div сработал!')">
+        <em>Кликните на <code>EM</code>, сработает обработчик на <code>DIV</code></em>
+      </div>
+    <!-- <div class="container">
+        <div class="test" id="test">
+            <div class="block1" id="block1">block1</div>
+            <div class="block2" id="block2">block2</div>
+        </div>
+    </div> -->
+    <script src="script.js"></script>
+</body>
+</html>
